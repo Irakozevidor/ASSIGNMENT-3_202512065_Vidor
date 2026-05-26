@@ -8,7 +8,7 @@ void swap(int *a, int *b) {
 
 int main() {
     int x = 10, y = 20;
-    printf("Before: x=%d, y=%d\n", x, y);
+    cout<<"Before: x=%d, y=%d\n" ;
     swap(&x, &y);
-    printf("After:  x=%d, y=%d\n", x, y);
+    cout<<"After:  x=%d, y=%d\n";
 }
